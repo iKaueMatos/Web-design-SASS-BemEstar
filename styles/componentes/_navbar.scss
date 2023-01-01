@@ -1,0 +1,25 @@
+@import '../abstract/variaveis';
+
+nav{
+    text-align: center;
+    background-color:$cor-primary;
+    padding: 1rem;
+    border-radius: 4px;
+    
+}ul{
+    li{
+        display: inline-block;
+        padding: 1rem;
+        a{
+            text-transform: uppercase;
+            list-style: none;
+            text-decoration: none;
+            color:$font-color;
+            font-weight: bold;
+            //seletor especial do sass ond e possibilita que você criei mais comportamentos em uma classe ou propriedade
+            &:hover{
+                border-bottom:2px solid $cor-terceira;
+            }
+        }
+    }
+}

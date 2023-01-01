@@ -1,0 +1,33 @@
+@import '../abstract/variaveis';
+
+footer{
+    text-align: center;
+    font-size:$tamanho-fonte;
+    background: $cor-primary;
+    border-top:2px solid $cor-primary;
+    color:$font-color;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    i{
+        color:$cor-terceira;
+    }
+}
+
+.pedra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}h3{
+    font-size: $tamanho-fonte;
+    text-align: center;
+    color: $cor-primary;
+}h4{
+    font-size: $tamanho-fonte / 1;
+    text-align: center;
+    color: $cor-secundaria;
+}p{
+    margin: 10px;
+    font-size: 20px;
+    text-align: center;
+}
